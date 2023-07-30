@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validationForm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form" action="signup">
+            <!-- Username -->
+             <div class="content">
+                <label for="Username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username">
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error message</small>
+            </div>
+              <!-- Email -->
+            <div class="content">
+                <label for="Email">Email</label>
+                <input type="Email" id="Email" placeholder="username@gmail.com">
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error message</small>
+            </div>
+             <!-- password -->
+            <div class="content">
+                <label for="Password">Password</label>
+                <input type="Password" id="Password" placeholder="Enter your Password">
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error message</small>
+            </div>
+              <!-- Confirm password -->
+            <div class="content">
+                <label for="ConfirmPassword">Confirm Password</label>
+                <input type="Password" id="ConfirmPassword" placeholder="Enter your Password">
+                <i class="bi bi-check-circle-fill"></i>
+                <i class="bi bi-exclamation-circle-fill"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>   
+             </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
